@@ -1,0 +1,13 @@
+{
+  "name": "marketing-web-scraper",
+  "version": "1.0.0",
+  "description": "Web scraper for marketers",
+  "main": "app.js",
+  "author": "Your Name",
+  "dependencies": {
+    "cheerio": "^0.19.0",
+    "express": "^4.13.3",
+    "fs": "0.0.2",
+    "request": "^2.67.0"
+  }
+}
