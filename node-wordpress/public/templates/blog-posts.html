@@ -1,0 +1,12 @@
+<div class="col s12 m4 animated fadeInDown" ng-repeat="post in myPosts">
+    <div class="card">
+        <div class="card-title">{{post.title.rendered }}</div>
+        <div class="card-content">
+            <p>{{post.excerpt.rendered | htmlToPlaintext }}</p>
+        </div>
+        <div class="card-action right-align">
+            <a href="{{post.link}}">Read More</a>
+        </div>
+    </div>
+</div>
+

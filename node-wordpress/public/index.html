@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <title>Wordpress - Materialize</title>
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection" />
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection" />
+</head>
+
+<body>
+    <nav class="dark-blue lighten-5" role="navigation">
+        <div class="nav-wrapper container"><a id="logo-container" href="https://github.com/VSVS/ApiMashup" class="brand-logo"><img src="http://www.freeiconspng.com/uploads/github-logo-icon-0.png" alt=""></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="">Demo</a></li>
+            </ul>
+            <ul id="nav-mobile" class="side-nav">
+                <li><a href="#">Demo</a></li>
+            </ul>
+            <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+        </div>
+    </nav>
+    <div class="section no-pad-bot" id="index-banner">
+        <div class="container">
+            <br>
+            <br>
+            <h1 class="header center orange-text">MEAN STACK WP API</h1>
+            <div class="row center">
+                <h5 class="header col s12 light">Materialize Express Angular Node wordpress api scrapper</h5>
+            </div>
+           
+            <br>
+            <br>
+        </div>
+    </div>
+    <!-- WP POSTS-->
+    <div class="container" ng-controller="postController">
+        <div class="row">
+            <blog-posts></blog-posts>
+
+        </div>
+    </div>
+    <footer class="page-footer dark-blue">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Made with ❤ and 🍺</h5>
+                    <p class="grey-text text-lighten-4">Code is an imitation of life...</p>
+                </div>
+                
+                
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+               By <a class="orange-text text-lighten-3" href="http://github.com/VSVS">@VSVS</a>
+            </div>
+        </div>
+    </footer>
+    <!--  Scripts-->
+    <script src="bw/angular/angular.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/app.js"></script>
+   
+</body>
+
+</html>

@@ -10,13 +10,12 @@ app.use(morgan('dev'));
 app.use(bodyParser.json());
 
 
-app.all('/dishes', function(req, res, next){
+app.all('/dishes', function(req, res, next){                                                                                                                                                                                                                                                                                   
 	res.writeHead(200, {'Content-Type':'text/plain'});
 	next();
 });
 
 app.get('/', function(req, res, next){
-	//res.writeHead(200, {'Content-Type':'text/html'});
 	res.sendFile(path.join(__dirname + '/public/index.html'));
 });
 
